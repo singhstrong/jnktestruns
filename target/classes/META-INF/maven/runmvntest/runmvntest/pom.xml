@@ -38,6 +38,24 @@
     <build>
 		<plugins>
 		<?m2e execute onConfiguration?> 
+			<plugin>
+ 
+			
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<executions>
+				<?m2e execute onConfiguration?> 
+					<execution>
+					<?m2e execute onConfiguration?> 
+						<id>test-compile</id>
+						<phase>test-compile</phase>
+						<goals>
+							<goal>testCompile</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
 			
 
 			<plugin>
