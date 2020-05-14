@@ -10,8 +10,9 @@
 	<parameter name="url" value="https://www.google.com/" />
 <parameter name="searchKey" value="India" />
 		<classes>
-			<class name="first.second" />
 			<class name="first.first" />
+						<class name="first.second" />
+			
 		</classes>
 	</test>
 
